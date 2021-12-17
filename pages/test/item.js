@@ -8,7 +8,8 @@ export async function getStaticProps() {
     return {
       props: {
         itemData
-      }
+      },
+      revalidate:1,
     }
   }
 
